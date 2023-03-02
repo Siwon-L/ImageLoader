@@ -13,6 +13,7 @@
 		9B39A9B829B0B19E00A12128 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B39A9B629B0B19E00A12128 /* Main.storyboard */; };
 		9B39A9BA29B0B1A000A12128 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B39A9B929B0B1A000A12128 /* Assets.xcassets */; };
 		9B39A9BD29B0B1A000A12128 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B39A9BB29B0B1A000A12128 /* LaunchScreen.storyboard */; };
+		9B39A9C529B0BD6B00A12128 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B39A9C429B0BD6B00A12128 /* ImageDownloader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		9B39A9B929B0B1A000A12128 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B39A9BC29B0B1A000A12128 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B39A9BE29B0B1A000A12128 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B39A9C429B0BD6B00A12128 /* ImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				9B39A9B029B0B19E00A12128 /* AppDelegate.swift */,
 				9B39A9B229B0B19E00A12128 /* SceneDelegate.swift */,
 				9B39A9B429B0B19E00A12128 /* ViewController.swift */,
+				9B39A9C429B0BD6B00A12128 /* ImageDownloader.swift */,
 				9B39A9B629B0B19E00A12128 /* Main.storyboard */,
 				9B39A9B929B0B1A000A12128 /* Assets.xcassets */,
 				9B39A9BB29B0B1A000A12128 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				9B39A9B529B0B19E00A12128 /* ViewController.swift in Sources */,
 				9B39A9B129B0B19E00A12128 /* AppDelegate.swift in Sources */,
+				9B39A9C529B0BD6B00A12128 /* ImageDownloader.swift in Sources */,
 				9B39A9B329B0B19E00A12128 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
