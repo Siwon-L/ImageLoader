@@ -7,13 +7,35 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+final class ViewController: UIViewController {
+  @IBOutlet weak var firstImageView: UIImageView!
+  @IBOutlet weak var scondImageView: UIImageView!
+  @IBOutlet weak var thirdImageView: UIImageView!
+  @IBOutlet weak var fourthImageView: UIImageView!
+  @IBOutlet weak var fifthImageView: UIImageView!
+  
+  private let imageDownloader = ImageDownloader()
+  
   override func viewDidLoad() {
     super.viewDidLoad()
-    // Do any additional setup after loading the view.
   }
-
-
+  
+  @IBAction func firstLoadButtonDidTap(_ sender: UIButton) {
+  }
+  
+  @IBAction func scondLoadButtonDidTap(_ sender: UIButton) {
+  }
+  
+  @IBAction func thirdLoadButtonDidTap(_ sender: UIButton) {
+  }
+  
+  @IBAction func fourthLoadButtonDidTap(_ sender: UIButton) {
+  }
+  
+  @IBAction func fifthLoadButtonDidTap(_ sender: UIButton) {
+  }
+  
+  @IBAction func allLoadButtonDidTap(_ sender: UIButton) {
+  }
 }
 
